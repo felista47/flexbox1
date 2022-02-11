@@ -1,0 +1,103 @@
+html,
+body {
+    background-color: rgb(147, 154, 160);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    background-color: white;
+    height: 80vh;
+    max-width: 50vw;
+    left: 25vw;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+p#one {
+    color: lightgrey;
+}
+
+.head {
+    background-color: transparent;
+    max-width: 50vw;
+    margin: 0;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+}
+
+.body {
+    background-color: rgb(5, 9, 255);
+    margin: 0;
+    height: 45vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.monthly {
+    background-color: rgb(37, 187, 160);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8%;
+}
+
+.why {
+    background-color: rgb(35, 212, 180);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8%;
+}
+
+.hassle {
+    color: rgb(224, 248, 9);
+}
+
+.join {
+    color: rgb(35, 212, 180);
+}
+
+.subscriptions {
+    color: white;
+}
+
+.per {
+    color: beige;
+}
+
+.dollar {
+    color: white;
+    font-size: 150%;
+}
+
+.full {
+    color: wheat;
+}
+
+.sign {
+    max-width: 150px;
+    background-color: greenyellow;
+    text-align: center;
+    padding: 2% 8%;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+}
+
+.why-head {
+    color: white;
+}
+
+.why-p {
+    color: rgba(255, 255, 255, 0.842);
+}
